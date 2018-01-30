@@ -22,3 +22,18 @@
 1. 検索バーに `Lombok` と入力し、Lombok Pluginを選択します。
 右側に表示されるInstallボタンを押下してください。<br>
 ![プラグイン設定3](../image/intellij_setting_install_lombok-plugin.png)
+
+## SDKの設定
+
+1. Welcome画面で[Configure]→[Project Defaults]⇒[Project Structure]と選択してください。<br>
+![SDK設定1](../image/intellij_top_project-structure_Mac.png)
+
+1. [Project SDK]という見出しの下にあるプルダウンが＜No SDK＞になっていると思いますので、【New...】→【JDK】を選択してください。<br>
+![SDK設定2](../image/intellij_setting_jdk1_Mac.png)
+
+1. ご自身がインストールしたjdkの場所(C:\Program Files\Java\jdk1.8.x_xxx)を選択して[OK]を押下してください。<br>
+![SDK設定3](../image/intellij_setting_jdk1_select-home-directory_Mac.png)
+
+1. Project SDKが設定され、【1.8(java version "1.8.x_xxx")】が選択されるかと思います。
+一つ下の項目「Project language level」は「8 - Lambdas, type annotations etc.」を選択し、[OK]を押下してください。<br>
+![SDK設定4](../image/intellij_setting_jdk2_Mac.png)
