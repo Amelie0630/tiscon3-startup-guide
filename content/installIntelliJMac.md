@@ -31,7 +31,7 @@
 1. [Project SDK]という見出しの下にあるプルダウンが＜No SDK＞になっていると思いますので、【New...】→【JDK】を選択してください。<br>
 ![SDK設定2](../image/intellij_setting_jdk1_Mac.png)
 
-1. ご自身がインストールしたjdkの場所(C:\Program Files\Java\jdk1.8.x_xxx)を選択して[OK]を押下してください。<br>
+1. ご自身がインストールしたjdkの場所(/Library/Java/JavaVirtualMachines/jdk1.8.x_xxx.jdk)を選択して[OK]を押下してください。<br>
 ![SDK設定3](../image/intellij_setting_jdk1_select-home-directory_Mac.png)
 
 1. Project SDKが設定され、【1.8(java version "1.8.x_xxx")】が選択されるかと思います。
